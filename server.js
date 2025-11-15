@@ -12,9 +12,7 @@ const app = express();
 
 // Configura cors para permitir tu frontend local
 app.use(cors({
-  origin: 'http://localhost:4200', // Origen de tu Angular en desarrollo
-  methods: ['GET', 'POST', 'PUT', 'DELETE'], // Métodos permitidos
-  allowedHeaders: ['Content-Type', 'Authorization'] // Encabezados permitidos
+ 
 }));
 
 // Servir imágenes estáticas
